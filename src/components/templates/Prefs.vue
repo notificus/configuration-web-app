@@ -1,7 +1,7 @@
 <template>
     <div>
         <div id="ActivateEmail">
-            <b-form-checkbox id="emailcheck" ref="enable" :checked="emailEnabled" v-model="emailEnabledVal">Enable Emails</b-form-checkbox>
+            <b-form-checkbox id="emailcheck" ref="enable" v-model="emailEnabledVal">Enable Emails</b-form-checkbox>
         </div>
         <div id="EmailContainer">
             <h1 id="emailLabel">Emails:</h1>
