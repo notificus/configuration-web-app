@@ -51,7 +51,8 @@
         width: 75px;
         display: inline-flex;
         background-color: green;
-        padding: 0px 17px;
+        text-align: center;
+        padding: auto;
         border-radius: 6px;
     }
 
@@ -69,6 +70,7 @@
         background-color: green;
         border-radius: 6px;
         margin-left: 10px;
+        padding: auto;
     }
 
     #cancelBtn:hover {
